@@ -552,6 +552,7 @@
 
         function set(color, ignoreFormatChange) {
             if (tinycolor.equals(color, get())) {
+                updateUI();
                 return;
             }
 
